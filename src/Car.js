@@ -6,6 +6,7 @@ class Car extends Vehicle {
 
     this.wheels = 4;
     this.seats = 5;
+    this.type = 'car';
   }
 }
 

@@ -46,7 +46,7 @@ class Vehicles extends Component {
     let vehicle = this.state.list[i];
     let message = [
       'I am ', vehicle.getName(), ', a ',
-      vehicle.constructor.name.toLowerCase(), ' with ', vehicle.wheels,
+      vehicle.type, ' with ', vehicle.wheels,
       ' wheels, and ', vehicle.seats, ' seats!'
     ].join('');
     console.log(message)

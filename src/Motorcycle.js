@@ -6,6 +6,7 @@ class Motorcycle extends Vehicle {
 
     this.wheels = 2;
     this.seats = 1;
+    this.type = 'motorcycle';
   }
 }
 
